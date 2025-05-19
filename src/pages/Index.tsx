@@ -7,6 +7,9 @@ import JargonExamples from "../components/sections/JargonExamples";
 import LanguageImpact from "../components/sections/LanguageImpact";
 import Recommendations from "../components/sections/Recommendations";
 import Conclusion from "../components/sections/Conclusion";
+import SiteFeatures from "../components/sections/SiteFeatures";
+import VisualExamples from "../components/sections/VisualExamples";
+import JargonDictionary from "../components/interactive/JargonDictionary";
 
 const Index: React.FC = () => {
   return (
@@ -17,7 +20,10 @@ const Index: React.FC = () => {
         <Introduction />
         <JargonInfo />
         <JargonExamples />
+        <VisualExamples />
+        <SiteFeatures />
         <LanguageImpact />
+        <JargonDictionary />
         <Recommendations />
         <Conclusion />
       </main>
